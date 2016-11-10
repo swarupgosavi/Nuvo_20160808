@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="About"
+          android:id="@+id/nav_item_about"
+
+          android:icon="@drawable/about_icon_menu"/>
+
+    <item android:title="Settings"
+          android:id="@+id/nav_item_bookmark"
+          android:icon="@drawable/setting_icon_menu"/>
+
+    <item android:title="Logout"
+          android:id="@+id/nav_item_newp"
+          android:icon="@drawable/logout_icon_menu"/>
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:minHeight="?attr/actionBarSize">
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/toolbar_title"
+            android:textColor="@color/white"
+            android:textSize="19dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/viewmarginleft"
+        android:layout_marginRight="@dimen/viewmarginright"
+        android:layout_marginTop="@dimen/viewmargintop"
+        android:alpha="0.8"
+        android:background="@drawable/inner_view"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/toplv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/signuptop"
+            android:layout_weight="0.2"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_whats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/whatkindofuser"
+                android:textColor="@color/white"
+                android:textSize="@dimen/signuptextsize" />
+
+            <TextView
+                android:id="@+id/tv_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/selecttypeofuser"
+                android:textColor="@color/white"
+                android:textSize="@dimen/signuptextsize" />
+
+            <LinearLayout
+                android:id="@+id/lv_default"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/signintop_type"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+
+                <ImageView
+                    android:id="@+id/im_producerdefault"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:clickable="true"
+                    android:contentDescription="@string/app_name"
+
+                    android:src="@drawable/producer" />
+
+
+                <ImageView
+                    android:id="@+id/im_artistdefault"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="@dimen/signuptypedistance"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/artist" />
+
+                <ImageView
+                    android:id="@+id/im_agentdefault"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="@dimen/signuptypedistance"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/agent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottomlv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/divider"></LinearLayout>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_color_dark"
+
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="@dimen/loginbttextsize" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/signinbottom"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/buttontopdistance"
+                android:background="@drawable/rounded_edittext3"
+                android:text="@string/register"
+                android:textAllCaps="false"
+                android:textColor="@color/singup_text"
+                android:textSize="@dimen/registertextsize" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

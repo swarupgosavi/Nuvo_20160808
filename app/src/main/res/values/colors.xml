@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="singup_text">#f0f0f0</color>
+    <color name="loginbttext">#af304c</color>
+    <color name="divider">#afa9f0</color>
+    <color name="songbg">#20081d</color>
+    <color name="red">#A21414</color>
+    <color name="tab_color">#af304c</color>
+    <color name="inactivetab">#af304c</color>
+    <color name="activetab">#afa9f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="actionbar_flatui_SILVER">#BFBFBF</color>
+</resources>

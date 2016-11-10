@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:alpha="0.8"
+            android:background="@drawable/inner_view"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_recordingmethod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/recordingmethod"
+
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/gender" />
+
+                <!-- <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="@dimen/activity_vertical_margin"
+                     android:layout_marginRight="@dimen/activity_vertical_margin"
+                     android:id="@+id/df"
+                     android:layout_marginTop="10dp"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/isdn"
+                         android:layout_width="@dimen/createprofilesmallimage"
+                         android:layout_height="30dp"
+                         android:background="@drawable/rounded_edittext3"
+                         android:text="@string/isdn"
+                         android:textAllCaps="false"
+                         android:textColor="@color/white"
+                         android:textSize="@dimen/smallbuttontext" />
+
+                     <Button
+                         android:id="@+id/sourceconnect"
+                         android:layout_width="@dimen/createprofilesmallimagelarge"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                         android:background="@drawable/rounded_edittext3"
+                         android:text="@string/sourceconnect"
+                         android:textAllCaps="false"
+                         android:textColor="@color/white"
+                         android:textSize="@dimen/smallbuttontext" />
+
+                     <Button
+                         android:id="@+id/studio"
+                         android:layout_width="@dimen/createprofilesmallimage"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                         android:background="@drawable/rounded_edittext3"
+                         android:text="@string/studio"
+                         android:textAllCaps="false"
+                         android:textColor="@color/white"
+                         android:textSize="@dimen/smallbuttontext" />
+
+                 </LinearLayout>-->
+                <LinearLayout
+                    android:id="@+id/recordedlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_recordeddemo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/recordeddemo"
+
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/gender" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_edittext3"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp">
+
+                        <ImageView
+                            android:id="@+id/audiorecorddelete"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+
+                            android:layout_marginTop="10dp"
+
+                            android:src="@drawable/delete_icon_mid" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+
+
+                        android:background="@drawable/recordingwaves"
+
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/audiorecord"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:src="@drawable/music_icon" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_attachvoicedemo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_vertical_margin"
+                        android:layout_marginRight="@dimen/activity_vertical_margin"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center"
+                        android:text="@string/attachedvoicedemo"
+
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/gender" />
+
+
+                    <ImageView
+                        android:id="@+id/audiorecordplay"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="10dp"
+                        android:visibility="invisible"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/play_button" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <Button
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="@dimen/signuptop"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+
+                        android:layout_weight="0.5"
+                        android:background="@drawable/rounded_edittext3"
+                        android:text="@string/back"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/loginbttextsize" />
+
+                    <Button
+                        android:id="@+id/next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="@dimen/signuptop"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+
+                        android:layout_weight="0.5"
+                        android:background="@drawable/btn_color_dark"
+                        android:text="@string/next"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/loginbttextsize" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

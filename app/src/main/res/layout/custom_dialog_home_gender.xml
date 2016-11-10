@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootcustomdialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popupbackground"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:id="@+id/viewlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="280dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title" />
+
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:button="@drawable/custom_btn_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="13dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/white"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:button="@drawable/custom_btn_radio"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="13dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#737687"
+        android:background="#F0F0F0"
+        android:layout_marginTop="20dp"
+        android:text="@string/done"
+
+        />
+
+
+</LinearLayout>

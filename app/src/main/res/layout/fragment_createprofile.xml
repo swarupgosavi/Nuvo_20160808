@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:alpha="0.8"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/inner_view"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ed_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/signintop"
+            android:background="@drawable/textbox"
+            android:ems="10"
+            android:hint="@string/firstname"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/ed_email" />
+
+        <EditText
+            android:id="@+id/ed_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox"
+            android:hint="@string/lastname"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+
+            android:textSize="@dimen/ed_password" />
+
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:text="@string/gender"
+
+            android:textColor="@color/white"
+            android:textSize="@dimen/gender" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gender_male"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/button_selected"
+                android:text="@string/male"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smallbuttontext" />
+
+            <Button
+                android:id="@+id/gender_female"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_selected"
+                android:text="@string/female"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smallbuttontext" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:text="@string/age"
+
+            android:textColor="@color/white"
+            android:textSize="@dimen/gender" />
+
+        <LinearLayout
+            android:id="@+id/rootage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"></LinearLayout>
+
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="@dimen/createprofilesmallimage"
+                android:id="@+id/genx"
+                android:text="@string/genx"
+                android:textSize="@dimen/smallbuttontext"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_edittext3"
+                android:layout_height="30dp" />
+            <Button
+                android:layout_width="@dimen/createprofilesmallimage"
+                android:id="@+id/millenials"
+                android:textAllCaps="false"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/millenials"
+                android:textSize="@dimen/smallbuttontext"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_edittext3"
+                android:layout_height="30dp" />
+            <Button
+                android:layout_width="@dimen/createprofilesmallimage"
+                android:id="@+id/geny"
+                android:textAllCaps="false"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/geny"
+                android:textSize="@dimen/smallbuttontext"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_edittext3"
+                android:layout_height="30dp" />
+        </LinearLayout>-->
+        <TextView
+            android:id="@+id/tv_langauge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:text="@string/langauge"
+
+            android:textColor="@color/white"
+            android:textSize="@dimen/gender" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rootlangauge"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            </LinearLayout>
+
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/english"
+                android:layout_width="@dimen/createprofilesmallimage"
+                android:layout_height="30dp"
+                android:background="@drawable/rounded_edittext3"
+                android:text="@string/english"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smallbuttontext" />
+
+            <Button
+                android:id="@+id/french"
+                android:layout_width="@dimen/createprofilesmallimage"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:background="@drawable/rounded_edittext3"
+                android:text="@string/french"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smallbuttontext" />
+
+            <Button
+                android:id="@+id/spanish"
+                android:layout_width="@dimen/createprofilesmallimage"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:background="@drawable/rounded_edittext3"
+                android:text="@string/spanish"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smallbuttontext" />
+
+            <Button
+                android:id="@+id/british"
+                android:layout_width="@dimen/createprofilesmallimage"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:background="@drawable/rounded_edittext3"
+                android:text="@string/british"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smallbuttontext" />
+        </LinearLayout>
+-->
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_color_dark"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/loginbttextsize" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

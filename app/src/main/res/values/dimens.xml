@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="signuptop">20dp</dimen>
+    <dimen name="signintop">20dp</dimen>
+    <dimen name="signuptypedistance">10dp</dimen>
+    <dimen name="signuptypedistanceproducer">5dp</dimen>
+    <dimen name="signinbottom">20dp</dimen>
+    <dimen name="signintop_type">40dp</dimen>
+    <dimen name="buttontopdistance">10dp</dimen>
+    <dimen name="viewmargintop">10dp</dimen>
+    <dimen name="viewmarginleft">10dp</dimen>
+    <dimen name="viewmarginright">10dp</dimen>
+    <dimen name="viewmarginbottom">10dp</dimen>
+    <dimen name="toolbartextsize">25dp</dimen>
+    <dimen name="loginbttextsize">17dp</dimen>
+    <dimen name="registertextsize">17dp</dimen>
+    <dimen name="signuptextsize">15dp</dimen>
+    <dimen name="signintonuvo">15dp</dimen>
+    <dimen name="useemail">13dp</dimen>
+    <dimen name="whenyouconnected">13dp</dimen>
+    <dimen name="ed_email">15dp</dimen>
+    <dimen name="ed_password">15dp</dimen>
+    <dimen name="forgotpassword">15dp</dimen>
+    <dimen name="checkyourmail">13dp</dimen>
+    <dimen name="sendemailtop">20dp</dimen>
+    <dimen name="gender">13dp</dimen>
+    <dimen name="createprofilesmallimage">70dp</dimen>
+    <dimen name="createprofilesmallimagelarge">120dp</dimen>
+    <dimen name="smallbuttontext">13dp</dimen>
+    <dimen name="buttonthirtyspace">30dp</dimen>
+</resources>

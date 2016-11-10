@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">nuvo</string>
+    <string name="whatkindofuser">What kind of user are you?</string>
+    <string name="selecttypeofuser">Select type of user to sign in or register.</string>
+    <string name="toolbar_title">nuvo</string>
+    <string name="login">Login</string>
+    <string name="useemail">Use the email address and password used</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="whenyou">when you created your account.</string>
+    <string name="signintonovu">Sign into Nuvo</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="send">Send</string>
+    <string name="password">Password</string>
+    <string name="passwordreset">password reset instructions</string>
+    <string name="enteryouremail">Enter your Email below to receive your</string>
+    <string name="tvforgotpassword">Forgot your password?</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="next">Next</string>
+    <string name="age">Age</string>
+    <string name="male">Male</string>
+    <string name="genx">Gen X</string>
+    <string name="millenials">Millenials</string>
+    <string name="geny">Gen Y</string>
+    <string name="langauge">Language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="spanish">Spanish</string>
+    <string name="british">British</string>
+    <string name="phonennumber">Phone Number</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="thankyou">Thank you!</string>
+    <string name="back">Back</string>
+    <string name="recordingmethod">Recording Methods</string>
+    <string name="recordeddemo">Recorded Demo</string>
+    <string name="attachedvoicedemo">Attach Voice Demo</string>
+    <string name="isdn">ISDN</string>
+    <string name="sourceconnect">Source Connect</string>
+    <string name="studio">Studio</string>
+    <string name="companyname">Company Name</string>
+    <string name="jobcategory">Job Category</string>
+    <string name="characteristic">Characteristics</string>
+    <string name="description">Description</string>
+    <string name="checkemail">Please check your email for instructions.</string>
+    <string name="no_connection">Internet not available, Please check your Internet connectivity and try again.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="pleasewait">Please Wait</string>
+    <string name="no_connection_title">Alert</string>
+    <string name="settings">Settings</string>
+    <string name="ProgressDialog_title">Processing...</string>
+    <string name="ProgressDialog_message">Please wait.</string>
+    <string name="attitude">Attitude</string>
+    <string name="dad">Dad</string>
+    <string name="done">Done</string>
+    <string name="showresult">Show Results</string>
+
+
+    <string name="choosevoice">Choose Voice Over Criteria</string>
+    <string name="descripion">GreenDot</string>
+
+    <string name="add_artist">Add Artist</string>
+    <string name="add_artist_three">Add Artist 3</string>
+    <string name="add_artist_one">Add Artist 1</string>
+    <string name="add_artist_two">Add Artist 2</string>
+
+
+</resources>

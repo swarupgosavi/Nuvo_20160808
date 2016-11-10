@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootcustomdialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popupbackground"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:id="@+id/viewlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_marginTop="10dp"
+            android:layout_width="280dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#737687"
+        android:background="#F0F0F0"
+        android:text="@string/done"
+        android:layout_margin="0dp"
+        />
+
+</LinearLayout>
